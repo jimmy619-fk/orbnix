@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.overflow-x-scroll {
+  overflow-x: auto;
+}
+
+/* If you want to hide the scrollbar completely, you can use the following CSS */
+.overflow-x-scroll::-webkit-scrollbar {
+  display: none;
+  /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+/* If you also want to hide scrollbar for Firefox */
+.overflow-x-scroll {
+  scrollbar-width: none;
+  /* Hide scrollbar for Firefox */
+}
+
+.apexcharts-toolbar {
+  bottom: 20px;
+  top: 500px !important;
+  right: 100px !important
+}
+
+.apexcharts-zoomin-icon {
+  color: white;
+  background-color: #1F1F1F;
+  border: 2px !important;
+  border-radius: 5px !important;
+  height: 32px !important;
+  width: 41px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apexcharts-zoomout-icon {
+  color: white;
+  background-color: #1F1F1F;
+  border: 2px !important;
+  border-radius: 5px !important;
+  height: 32px !important;
+  width: 41px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
